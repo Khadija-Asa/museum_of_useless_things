@@ -1,0 +1,23 @@
+.navbar_menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.navbar_menu li {
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: .8rem;
+}
+
+.navbar_menu li a {
+  color: var(--Blue);
+  font-weight: 900;
+  display: flex;
+  align-items: center;
+}
+
+.navbar_menu svg {
+  width: 2rem;
+}
