@@ -1,21 +1,19 @@
 /* Colors */
 :root {
-  /* home */
-  --Blue: #2500E5;
-  --Yellow: #BABC00;
-;
-  /* dontclick */
-  --Black: #111729;
-  --Dark-Gray: #223344;
-  --Light-Gray: #909193;
   --White: #F2F9FE;
+  --Black: #111729;
+  --Gray: #2F3958;
 }
 
 /* font */
-/* home */
 @font-face {
   font-family: 'Haldenweg';
   src: url(./../fonts/haldenweg/Haldenweg.otf);
+}
+
+@font-face {
+  font-family: 'Coolvetica';
+  src: url(./../fonts/coolvetica/theone.otf);
 }
 
 /* Box sizing rules */
@@ -44,17 +42,16 @@ html:focus-within {
 }
 
 html, body {
-  overflow-x: hidden;
+  overflow: hidden;
 }
 
 /* Set core body defaults */
 body {
+  font-family: 'Coolvetica';
   text-rendering: optimizeSpeed;
-  background-image: url('./../assets/texture_bg.jpg');
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 100vh;
   width: 100vw;
+  letter-spacing: .1rem;
 }
 
 /* Inherit fonts for inputs and buttons */
@@ -63,6 +60,7 @@ button,
 textarea,
 select {
   font: inherit;
+  cursor: pointer;
 }
 
 /* Remove all animations, transitions and smooth scroll for people that prefer not to see them */

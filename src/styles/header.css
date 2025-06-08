@@ -1,23 +1,23 @@
 .navbar_menu {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+  margin: .8rem 0;
 }
 
 .navbar_menu li {
-  text-transform: uppercase;
   display: flex;
   align-items: center;
-  justify-content: center;
-  font-size: .8rem;
+  text-transform: uppercase;
+  font-size: clamp(0.7rem, 0.5857rem + 0.1786vw, 0.8rem);
 }
 
 .navbar_menu li a {
+  padding-top: .4rem;
   color: var(--Blue);
   font-weight: 900;
-  display: flex;
-  align-items: center;
 }
 
 .navbar_menu svg {
-  width: 2rem;
+  width: 1.5rem;
 }
