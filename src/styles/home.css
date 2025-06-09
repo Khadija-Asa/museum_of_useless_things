@@ -5,6 +5,7 @@
   align-items: center;
   text-align: center;
   height: 100vh;
+  width: 100vw;
   gap: 2rem;
   background-image: url(./../assets/texture_bg.jpg);
   background-position: center;
@@ -27,17 +28,24 @@
   color: var(--Gray);
 }
 
-.home_container h1 {
+h1 {
   font-family: 'Haldenweg';
   font-size: clamp(4rem, 1.7143rem + 3.5714vw, 6rem);
   text-transform: uppercase;
 }
 
-.home_container p {
-  font-size: 1.3rem;
+h1 .spaced {
+  padding-top: 1.3rem;
+  display: block;
 }
 
-.home_container button {
+p {
+  font-size: 1.3rem;
+  background-color: rgba(223, 220, 220, 0.479);
+  padding: 1.2rem;
+}
+
+button {
   font-size: 2rem;
   padding: 0 .2rem 0 1rem;
 }
@@ -45,7 +53,7 @@
 .btn_enter {
   display: flex;
   align-items: center;
-  border-color: var(--Black);
+  border: 1px solid var(--Black);
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -73,4 +81,11 @@
 
 .btn_enter:hover:after {
   width: 100%;
+}
+
+.side_parag {
+  position: absolute;
+  right: -127px;
+  rotate: 90deg;
+  font-size: .8rem;
 }

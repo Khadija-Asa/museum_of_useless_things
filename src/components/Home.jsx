@@ -21,9 +21,11 @@ const Home = () => {
         </a>
       </div>
 
-      <p>Background perfectly uncentered. Just how we like it.</p>
+      <span className='side_parag'>Background perfectly uncentered. Just how we like it.</span>
+
       <h1>
         welcome to the museum <br />
+        <span className='spaced'></span>
         of <i>useless</i>&nbsp; things
       </h1>
       <p>
