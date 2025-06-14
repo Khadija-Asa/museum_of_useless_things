@@ -32,7 +32,7 @@ const Home = () => {
         Where function takes a vacation and pixels misbehave. <br />
        Where logic naps and purpose politely left the room.
       </p>
-      <Link to="/ne_clique_pas">
+      <Link to="/do-not-click">
         <button className='btn_enter'>ENTER <RiArrowDropRightLine />
 </button>
       </Link>

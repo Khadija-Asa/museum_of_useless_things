@@ -2,22 +2,25 @@
   display: flex;
   justify-content: center;
   gap: 1rem;
-  margin: .8rem 0;
 }
 
 .navbar_menu li {
   display: flex;
   align-items: center;
   text-transform: uppercase;
-  font-size: clamp(0.7rem, 0.5857rem + 0.1786vw, 0.8rem);
+  font-size: clamp(1rem, 0.7714rem + 0.3571vw, 1.2rem);
 }
 
 .navbar_menu li a {
-  padding-top: .4rem;
   color: var(--Blue);
-  font-weight: 900;
+}
+
+.navbar_menu li a:hover {
+  transform: translate(2px);
+  transition: transform 0.2s cubic-bezier(0.25, 1, 0.5, 1);
 }
 
 .navbar_menu svg {
-  width: 1.5rem;
+  margin-top: .2rem;
+  width: 2.8rem;
 }

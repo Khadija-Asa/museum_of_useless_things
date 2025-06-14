@@ -2,32 +2,32 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
-import Home from './components/Home';
-import DontClick from './components/Dontclick';
-import Compliments from './components/Compliments';
-import Boredom from './components/Boredom';
-import Ragebutton from './components/Ragebutton';
+import UselessHall from './components/UselessHall';
+import DoNotClick from './components/DoNotClick';
+import EgoBooster from './components/EgoBooster';
+import BoredPixels from './components/BoredPixels';
+import RageButton from './components/RageButton';
 
 const router = createBrowserRouter([
   { 
-    path: '/', 
-    element: <Home /> 
+    path: '/useless-hall', 
+    element: <UselessHall /> 
   },
   { 
-    path: '/ne_clique_pas', 
-    element: <DontClick /> 
+    path: '/do-not-click', 
+    element: <DoNotClick /> 
   },
   { 
-    path: '/machine_a_compliments', 
-    element: <Compliments /> 
+    path: '/ego-booster', 
+    element: <EgoBooster /> 
   },
   { 
-    path: '/qui_s_ennuie', 
-    element: <Boredom /> 
+    path: '/bored-pixels', 
+    element: <BoredPixels /> 
   },
   { 
-    path: '/rage_button', 
-    element: <Ragebutton /> 
+    path: '/rage-button', 
+    element: <RageButton /> 
   },
 ]);
 
