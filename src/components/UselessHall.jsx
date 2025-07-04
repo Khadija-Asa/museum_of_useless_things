@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 import { FaGithub, FaCode, FaLinkedin } from 'react-icons/fa';
 import { RiArrowDropRightLine } from "react-icons/ri";
 
-const Home = () => {
+const UselessHall = () => {
 
   return (
     <section className='home_container'>
@@ -40,4 +40,4 @@ const Home = () => {
   )
 }
 
-export default Home
+export default UselessHall

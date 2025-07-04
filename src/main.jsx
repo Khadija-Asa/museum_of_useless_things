@@ -10,7 +10,7 @@ import RageButton from './components/RageButton';
 
 const router = createBrowserRouter([
   { 
-    path: '/useless-hall', 
+    path: '/', 
     element: <UselessHall /> 
   },
   { 

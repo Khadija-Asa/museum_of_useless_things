@@ -6,7 +6,7 @@ const Header = () => {
     <>
       <nav className='navbar_menu'>
         <li>
-          <Link to="/useless-hall">
+          <Link to="/">
             useless hall 
           </Link>
         </li>
